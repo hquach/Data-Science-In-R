@@ -18,3 +18,10 @@ measurePrecisionRecall <- function(predict, actual_labels){
   cat('%')
   cat('\n')
 }
+
+
+# OR
+
+# URL: https://cran.r-project.org/web/packages/PerfMeas/PerfMeas.pdf
+
+library(PerfMeas)
